@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    background-color: 0;
+}
+
+.featured-speakers {
+    background-color: blue;
+}
