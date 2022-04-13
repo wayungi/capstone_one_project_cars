@@ -7,6 +7,35 @@
     background-color: 0;
 }
 
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(3, auto) / 1fr;
+}
+
+.main-program, 
+.featured-speakers,
+.title {
+  grid-column-start:1;
+  grid-column-end:3;
+}
+
+.main-program,
+.featured-speakers, 
+.title {
+  width:100%;
+  height: 50px;
+}
+
 .featured-speakers {
-    background-color: blue;
+  background-color: blue;
+}
+
+.main-program {
+  background-color: blueviolet;
+ 
+}
+
+.title {
+  background-color: red;
 }
