@@ -96,7 +96,10 @@ header{
   background-color: rgba(211,211,222, 0.2);
   margin-bottom:10px;
   column-gap:5%;
+}
 
+.ignite{
+  margin-bottom: 0;
 }
 
 .programe-icon {
@@ -110,9 +113,11 @@ header{
 }
 
 .description, 
-.programe-icon {
+.programe-icon,
+.speaker-bio,
+.speaker-holder {
   align-items: center;
-  height:70px;  
+  /* height:70px;   */
 }
 
 
@@ -132,18 +137,52 @@ header{
 
 a {
   text-decoration: none;
+  margin:35px 0;
 }
 
 /* featured speakers section */
 
-.featured-speakers {
-  background:white;
-}
 
 .featured-speakers .program-title{
   color:black;
 }
 
+.page-section{
+  /* outline:1px solid red; */
+  width:100%;
+}
+
+.speaker{
+  column-gap:5%;
+  margin-bottom:40px;
+}
+
+.speaker-image {
+  height:120px;
+}
+
+.speaker-holder{
+  flex-basis: 35%;
+  justify-content: center;
+}
+
+.speaker-bio {
+  flex-basis:60%;
+}
+
+.speaker-bio,
+.speaker-holder {
+  height:120px;
+}
+
+.speaker-name {
+  margin-bottom:10px;
+}
+
+.profession {
+  margin-bottom:15px;
+  color:red;
+}
 
 
 
@@ -152,7 +191,9 @@ a {
 .program-panel,
 .exhibition,
 .description,
-.programe-icon {
+.programe-icon,
+.speaker,
+.speaker-holder {
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
