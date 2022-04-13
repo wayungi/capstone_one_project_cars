@@ -5,26 +5,30 @@
     border-radius: 0;
     /* border: 0;
     background-color: 0; */
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grid-container {
   display: -ms-grid;
   display: grid;
   grid-template: repeat(3, auto) / 1fr;
+  padding:0 15px;
 }
 
 .main-program, 
 .featured-speakers,
 .title {
   grid-column:1/-1;
-  height: 50px
+  min-height: 50px
 }
 
 .navbar {
   outline:1px solid black;
   align-items:center;
   height:40px;
-  padding:0 15px;
+  padding:0 5px;
+  margin-bottom:60px;
 }
 
 .hamburger > span {
@@ -35,6 +39,15 @@
 
 .hamburger > span:nth-child(1){
   margin-top:0;
+}
+
+.tagline {
+  margin-bottom:5px;
+}
+
+.title{
+  font-size: 1.5em;
+  margin-bottom:20px;
 }
 
 
