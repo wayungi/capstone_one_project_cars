@@ -15,6 +15,13 @@
   grid-template: repeat(3, auto) / 1fr;
 }
 
+header{
+  background-color: none;
+  background-image: url('images/main_big.png');
+  background-repeat: no-repeat;
+  background-position: top 0, right 0, left 0, bottom 0;
+}
+
 .main-program, 
 .featured-speakers,
 .title {
@@ -64,9 +71,6 @@
 .venue{
   margin:6px 0 35px 0;
 }
-
-
-
 
 .navbar {
   display:flex;
