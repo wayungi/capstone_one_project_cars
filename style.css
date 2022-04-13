@@ -50,6 +50,21 @@
   margin-bottom:20px;
 }
 
+.introduction {
+  line-height: 20px;
+  margin-bottom:20px;
+}
+
+.event-date, 
+.event-duration {
+  font-size:1.1em ;
+  font-weight:bold;
+}
+
+.venue{
+  margin:6px 0 35px 0;
+}
+
 
 
 
