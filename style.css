@@ -13,14 +13,14 @@
   display: -ms-grid;
   display: grid;
   grid-template: repeat(3, auto) / 1fr;
-  padding:0 15px;
 }
 
 .main-program, 
 .featured-speakers,
 .title {
   grid-column:1/-1;
-  min-height: 50px
+  min-height: 50px;
+  padding:0 15px;
 }
 
 .navbar {
