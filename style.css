@@ -94,28 +94,29 @@ header{
   width:100%;
 }
 
-.lecture {
+.program-panel {
   background-color: rgba(211,211,222, 0.2);
+  margin-bottom:10px;
+  column-gap:5%;
+
 }
 
-.lecture-icon {
+.programe-icon {
   flex-basis:40%;
   align-items: flex-start;
 }
 
-.lecture-description {
-  flex-basis: 60%;  
+.description {
+  flex-basis: 55%; 
+  padding-right:10px; 
 }
 
-.lecture-description, 
-.lecture-icon {
+.description, 
+.programe-icon {
   align-items: center;
   height:70px;  
 }
 
-.program-panel {
-  margin-bottom:10px;
-}
 
 .icon-title{
   font-size: 1.1em;
@@ -129,8 +130,9 @@ header{
 /* general styles */
 .navbar,
 .lecture,
-.lecture-description,
-.lecture-icon {
+.exhibition,
+.description,
+.programe-icon {
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
