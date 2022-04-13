@@ -28,7 +28,6 @@ header{
 }
 
 .navbar {
-  outline:1px solid black;
   align-items:center;
   height:40px;
   padding:0 5px;
@@ -124,12 +123,24 @@ header{
   color:red;
 }
 
+.join {
+  display:inline-block;
+  color:#fff;
+  font-weight: bold;
+  padding:20px 45px;
+  background-color: red;;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 
 
 /* general styles */
 .navbar,
-.lecture,
+.program-panel,
 .exhibition,
 .description,
 .programe-icon {
