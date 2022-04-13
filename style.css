@@ -1,10 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* background: none; */
     border-radius: 0;
-    /* border: 0;
-    background-color: 0; */
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -82,20 +79,72 @@ header{
 .main-program-title {
   text-transform: capitalize;
   color:#fff;
-  margin:30px 0;
+  margin:30px 0 10px 0;
   font-size:1.3em;
 }
 
+.guide-bar {
+  width:40px;
+  display:inline-block;
+  outline:1px solid red;
+  margin-bottom:30px;
+}
 
-.navbar {
+.activities {
+  width:100%;
+}
+
+.lecture {
+  background-color: rgba(211,211,222, 0.2);
+}
+
+.lecture-icon {
+  flex-basis:40%;
+  align-items: flex-start;
+}
+
+.lecture-description {
+  flex-basis: 60%;  
+}
+
+.lecture-description, 
+.lecture-icon {
+  align-items: center;
+  height:70px;  
+}
+
+.program-panel {
+  margin-bottom:10px;
+}
+
+.icon-title{
+  font-size: 1.1em;
+  font-weight: bold;
+  color:red;
+}
+
+
+
+
+/* general styles */
+.navbar,
+.lecture,
+.lecture-description,
+.lecture-icon {
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.hamburger, .main-program-title {
+.hamburger,
+ .main-program,
+ .activities {
   display:flex;
   flex-direction: column;
+}
+
+.hamburger,
+.main-program{
   align-items: center;
 }
 
@@ -107,7 +156,3 @@ header{
   background-color: blue;
 }
 
-
-/* .title {
-  background-color: red;
-} */
