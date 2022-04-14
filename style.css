@@ -296,6 +296,22 @@ a {
   margin: 20px 0 30px 0;
 }
 
+.filter-layer {
+  background-color: rgba(255, 0, 0, .4);
+  position:absolute;
+  top:0;
+  height:100%;
+  width:100%;
+  justify-content: center;
+
+}
+
+.past-event p{
+  color:#fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 
 
 
@@ -320,7 +336,8 @@ a {
  .about-us-title,
  .topic-logo,
  .the-logo,
- .past-festivals {
+ .past-festivals,
+ .filter-layer {
   display:flex;
   flex-direction: column;
 }
