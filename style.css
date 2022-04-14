@@ -6,7 +6,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.grid-container {
+.home { 
   display: -ms-grid;
   display: grid;
   grid-template: repeat(3, auto) / 1fr;
