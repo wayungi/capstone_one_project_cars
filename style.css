@@ -194,44 +194,7 @@ a {
 
 /* about us page */
 
-.about-us {
-  grid-template: repeat(4, auto) / 1fr;
-}
 
-.about-us-title{
-  outline:1px solid black;
-  padding: 0 15px;
-  align-items: center;
-}
-
-.tagline-2 {
-  color:red;
-  margin:12px 0 12px 0;
-  display:inline-block;
-  width:fit-content;
-}
-
-.about-us-title{
-  text-align: center;
-}
-
-.highlight{
-  margin:20px 0;
-  border:1px solid black;
-  padding:15px 10px;
-  line-height: 20px;
-}
-
-.contact-info {
-  line-height: 20px;
-  text-align: center;
-  padding: 12px 30px;
-  margin-bottom:30px;
-}
-
-.contact-info .bold-text{
-  border-bottom:2px solid grey;
-}
 
 /* general styles */
 .navbar,
