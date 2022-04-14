@@ -1,9 +1,21 @@
+@font-face {
+  font-family: "cocogoose";
+  src: url("fonts/cocogoose/Cocogoose-Pro-trial.ttf") format("ttf")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     border-radius: 0;
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato, sans-serif;
+}
+
+h1,h2,h3,h4 {
+  font-family: cocogoose, sans-serif;
 }
 
 .home { 
