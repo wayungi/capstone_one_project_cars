@@ -213,8 +213,8 @@ a {
 }
 
 .about-us-title {
-  outline:1px solid red;
   padding:30px 20px 0 20px;
+  margin-bottom:60px;
 }
 
 .tagline-2 {
@@ -241,6 +241,27 @@ a {
   line-height: 20px;
 }
 
+.bold-text {
+  border-bottom:1px solid grey;
+  padding-bottom:2px;
+}
+
+.topic-logo {
+  outline:1px solid red;
+}
+
+.logo-h3 {
+  text-align: center;
+  padding-bottom:10px;
+  font-size:1.5em;
+}
+
+.red-line {
+  margin-bottom:10px;
+}
+
+
+
 
 
 /* general styles */
@@ -260,14 +281,16 @@ a {
  .main-program,
  .activities,
  .featured-speakers,
- .about-us-title {
+ .about-us-title,
+ .topic-logo {
   display:flex;
   flex-direction: column;
 }
 
 .hamburger,
 .main-program,
-.featured-speakers {
+.featured-speakers,
+.topic-logo {
   align-items: center;
 }
 
