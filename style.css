@@ -280,7 +280,20 @@ a {
 
 .past-festivals p {
   text-align:center;
-  margin-bottom:20px;
+  margin-bottom:30px;
+}
+
+.past-event {
+  height:220px;
+  position: relative;
+}
+
+.past-event img {
+  height: 100%;
+}
+
+.year2020 {
+  margin: 20px 0 30px 0;
 }
 
 
