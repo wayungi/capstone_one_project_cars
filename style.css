@@ -95,7 +95,7 @@ header{
 }
 
 .guide-bar {
-  width:40px;
+  width:30px;
   display:inline-block;
   outline:1px solid red;
   margin-bottom:30px;
@@ -312,6 +312,43 @@ a {
   font-size: 1.5em;
 }
 
+/* footer styles */
+
+.partner-logos {
+  padding:20px;
+  background-color: rgb(28, 28, 27);
+}
+
+.page-footer h3 {
+  margin-bottom:10px;
+  color:#fff;
+  font-size: 1.5em;
+}
+
+.partners {
+  display:flex;
+  flex-direction: column;
+ 
+}
+
+.partners img{
+  width:100px;
+  filter: grayscale(90%);
+
+}
+
+.primary-sponsor, 
+.tertiary-sponsor {
+  text-align:center;
+}
+
+.copyright-section div {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 
@@ -323,7 +360,8 @@ a {
 .description,
 .programe-icon,
 .speaker,
-.speaker-holder {
+.speaker-holder,
+.copyright-section{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -337,7 +375,8 @@ a {
  .topic-logo,
  .the-logo,
  .past-festivals,
- .filter-layer {
+ .filter-layer,
+ .partner-logos {
   display:flex;
   flex-direction: column;
 }
@@ -347,7 +386,8 @@ a {
 .featured-speakers,
 .topic-logo,
 .the-logo,
-.past-festivals {
+.past-festivals,
+.partner-logos {
   align-items: center;
 }
 
