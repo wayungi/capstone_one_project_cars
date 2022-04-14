@@ -22,7 +22,6 @@ header{
 .featured-speakers,
 .title {
   grid-column:1/-1;
-  min-height: 50px;
   padding:0 15px;
 }
 
@@ -191,6 +190,12 @@ a {
   margin-bottom:20px;
   text-align: center;
   border-radius: 2px;
+}
+
+/* about us page */
+
+.about-us {
+  grid-template: repeat(4, auto) / 1fr;
 }
 
 
