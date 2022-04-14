@@ -208,13 +208,11 @@ a {
   color:red;
   margin:12px 0 12px 0;
   display:inline-block;
-  outline:1px solid red;
   width:fit-content;
 }
 
 .about-us-title{
   text-align: center;
-  
 }
 
 .highlight{
@@ -222,6 +220,17 @@ a {
   border:1px solid black;
   padding:15px 10px;
   line-height: 20px;
+}
+
+.contact-info {
+  line-height: 20px;
+  text-align: center;
+  padding: 12px 30px;
+  margin-bottom:30px;
+}
+
+.contact-info .bold-text{
+  border-bottom:2px solid grey;
 }
 
 /* general styles */
