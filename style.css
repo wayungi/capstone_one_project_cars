@@ -55,8 +55,9 @@ header{
   margin-top:0;
 }
 
-ul.nav-list {
-  opacity: 0;
+/* Dont display the logo on small screens */
+a.brand {
+  opacity:0;
 }
 
 .tagline {
@@ -375,15 +376,34 @@ a {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     padding:2px 5px;
-    margin-top:50px;
+    margin-top:35px;
+    opacity:1;
   }
 
   /* logo end */
 
-
   .navbar {
-    /* outline:1px solid black; */
+    height:50px;
+    margin-top:1px;
+    padding: 0 10% 0 10%;
+    display:flex;
+    justify-content: space-between;
   }
+
+  .nav-list li {
+    list-style: none;
+    padding:10px 15px;
+  }
+
+  ul.nav-list li:first-child {
+    color:red;
+  }
+
+  ul.nav-list li:last-child {
+    outline:2px solid red;
+  }
+
+
 
   
 
