@@ -198,6 +198,20 @@ a {
   grid-template: repeat(4, auto) / 1fr;
 }
 
+.about-us-title{
+  outline:1px solid black;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.tagline-2 {
+  color:red;
+  margin:12px 0 12px 0;
+  display:inline-block;
+  outline:1px solid red;
+  width:fit-content;
+}
+
 
 
 /* general styles */
@@ -216,7 +230,8 @@ a {
 .hamburger,
  .main-program,
  .activities,
- .featured-speakers {
+ .featured-speakers,
+ .about-us-title {
   display:flex;
   flex-direction: column;
 }
