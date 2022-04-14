@@ -348,6 +348,16 @@ a {
   align-items: center;
 }
 
+/* large screen styles */
+
+@media (min-width: 768px) {
+  div.hamburger {
+    display:none;
+  }
+
+}
+
+
 
 
 
