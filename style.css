@@ -55,6 +55,10 @@ header{
   margin-top:0;
 }
 
+ul.nav-list {
+  opacity: 0;
+}
+
 .tagline {
   margin-bottom:5px;
 }
@@ -355,6 +359,34 @@ a {
     display:none;
   }
 
+  /* logo start */
+
+  .brand img{
+    height:40px;
+  }
+
+  a.brand {
+    border:1px solid black;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:2px 5px;
+    margin-top:50px;
+  }
+
+  /* logo end */
+
+
+  .navbar {
+    /* outline:1px solid black; */
+  }
+
+  
+
 }
 
 
@@ -364,6 +396,7 @@ a {
 
 
 /* general styles */
+.flex-row,
 .navbar,
 .program-panel,
 .exhibition,
