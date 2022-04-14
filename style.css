@@ -212,7 +212,17 @@ a {
   width:fit-content;
 }
 
+.about-us-title{
+  text-align: center;
+  
+}
 
+.highlight{
+  margin:20px 0;
+  border:1px solid black;
+  padding:15px 10px;
+  line-height: 20px;
+}
 
 /* general styles */
 .navbar,
