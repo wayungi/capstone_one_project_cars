@@ -405,15 +405,23 @@ a.brand {
 }
 
 /* modal window styles */
- .modal {
-   position:fixed;
-   top:0;
-   bottom:0;
-   right:0;
-   left:0;
-   background-color: rgba(255, 0, 0, .7);
-   padding: 40px 40px;
- }
+.modal {
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-color: rgba(255, 0, 0, 1);
+  padding: 40px 40px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  color:#fff;
+  font-size: 4.5em;
+  padding:5px 8px 5px 0;
+}
 
 /* hide on small screens */
 
