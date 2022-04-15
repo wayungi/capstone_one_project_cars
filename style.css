@@ -506,6 +506,12 @@ a {
     margin-bottom:70px;
   }
 
+  .past-festivals {
+    outline: 1px solid black;
+    display:flex;
+    
+  }
+
   
 
 
