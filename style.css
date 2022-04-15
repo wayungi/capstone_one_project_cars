@@ -40,9 +40,13 @@ header{
 
 .navbar {
   align-items:center;
-  height:40px;
+  height:50px;
   padding:0 5px;
   margin-bottom:60px;
+  position:fixed;
+  background-color: #fff;
+  box-shadow:  0.1em 0.1em 1em rgba(0,0,0,0.3);
+  width:100%;
 }
 
 .hamburger > span {
@@ -423,6 +427,24 @@ button {
   padding:5px 8px 5px 0;
 }
 
+li.modal-item {
+  list-style: none;
+}
+
+.modal-item a {
+  font-size: 2em;
+  color:#fff;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.modal-item a:hover, button:hover {
+  color: grey;
+}
+
+/* .modal.hidden {
+  display:none;
+} */
 /* hide on small screens */
 
 .large-screen {
@@ -432,30 +454,6 @@ button {
 /* large screen styles */
 
 @media (min-width: 768px) {
-
-
-
-  /* logo start */
-
-  /* .brand img{
-    height:40px;
-  }
-
-  a.brand {
-    border:1px solid black;
-    border-radius: 5px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: larger;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    padding:2px 5px;
-    margin-top:35px;
-    opacity:1;
-  } */
-
-  /* logo end */
 
   .navbar {
     height:50px;
@@ -554,12 +552,6 @@ button {
     flex-wrap: wrap;
     justify-content: center;
   }
-
-
-  /* distinction */
-  /* .home, .about-us {
-    outline:1px solid green;
-  } */
 
   /* about us large */
   .pad {

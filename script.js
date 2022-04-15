@@ -1,4 +1,14 @@
 const speakersList = document.querySelector('.speakers-list');
+// const closeBtn = document.querySelector('.modal-close');
+// const modalWindow = document.querySelector('.modal');
+// const hamburger = document.querySelector('.hamburger');
+// const modalNavs = document.querySelectorAll('.modal-menu > li');
+// const aboutPage = document.querySelector('.about-us');
+
+//const homePage = document.querySelector('');
+
+//console.log(modalNavs);
+
 
 const speakers = [
     {
@@ -126,3 +136,15 @@ function createSpeaker(index, ArrayOfSpeakers){
 for(let i = 0; i < speakers.length; i++) {
     createSpeaker(i, speakers);
 }
+
+// closeBtn.addEventListener('click', () => {
+//     modalWindow.classList.add('hidden');
+// });
+
+// hamburger.addEventListener('click', () => {
+//     modalWindow.classList.remove('hidden');
+// });
+
+// Array.from(modalNavs).forEach(modalNav => modalNav.addEventListener('click', () => {
+//     modalWindow.classList.add('hidden');
+// }));
