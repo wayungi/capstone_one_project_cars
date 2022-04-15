@@ -452,7 +452,9 @@ li.modal-item {
 
 .modal.hidden, 
 .about-us.hidden,
-.home.hidden {
+.home.hidden,
+a.brand,
+ul.nav-list {
   display:none;
 }
 
