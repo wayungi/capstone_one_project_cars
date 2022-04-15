@@ -519,6 +519,26 @@ a {
     column-gap:20px;
   }
 
+  div.copyright-section {
+    outline:1px solid green;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  .dark-copyright{
+    background-color: #272a31;
+  }
+
+  .bottom-logo {
+    background-color: #fff;
+  }
+
+  .copyright p, span.large-screen {
+    color:#fff;
+  }
+
   
 
 
