@@ -155,8 +155,8 @@ home.addEventListener('click', () => {
 
 about.addEventListener('click', () => {
     modalWindow.classList.add('hidden');
-    aboutPage.classList.add('hidden');
-    homePage.classList.remove('hidden');
+    aboutPage.classList.remove('hidden');
+    homePage.classList.add('hidden');
 })
 
 // Array.from(modalNavs).forEach(modalNav => modalNav.addEventListener('click', () => {

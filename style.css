@@ -450,7 +450,9 @@ li.modal-item {
   color: grey;
 }
 
-.modal.hidden, .about-us.hidden {
+.modal.hidden, 
+.about-us.hidden,
+.home.hidden {
   display:none;
 }
 
