@@ -479,6 +479,21 @@ a {
     text-decoration: underline;
   }
 
+  .speakers-list {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  /* distinction */
+  .home, .about-us {
+    outline:1px solid green;
+  }
+
+  
+
 
   
 
