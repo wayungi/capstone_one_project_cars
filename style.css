@@ -79,10 +79,10 @@ header{
 
 .page-title-1 {
   -webkit-text-fill-color:rgba(255, 0, 0, .4);
- -moz-text-fill-color: rgba(255, 0, 0, .4);
- -webkit-background-clip: text;
- background-clip: text;
- background-image: url('images/nyege2.jpg');
+  -moz-text-fill-color: rgba(255, 0, 0, .4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url('images/nyege2.jpg');
 }
 
 .introduction {
@@ -197,6 +197,7 @@ a {
   flex-basis: 120px;
   justify-content: center;
   height :120px;
+
 }
 
 .speaker-holder {
