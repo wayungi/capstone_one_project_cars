@@ -358,7 +358,9 @@ a {
 /* large screen styles */
 
 @media (min-width: 768px) {
-  .small-screen {
+  .small-screen, 
+  div.small-screen,
+  section.small-screen {
     display:none;
   }
 
@@ -515,7 +517,6 @@ a {
     flex-direction: row;
     align-items: center;
     column-gap:20px;
-
   }
 
   
