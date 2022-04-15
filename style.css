@@ -469,12 +469,29 @@ ul.nav-list {
 
 @media (min-width: 768px) {
 
+  div.hamburger {
+    display: none;
+  }
+
+  a.brand,
+  ul.nav-list {
+    display:block;
+  }
+
   .navbar {
-    height:50px;
-    margin-top:1px;
-    padding: 0 10% 0 10%;
+    height:60px;
     display:flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  ul.nav-list {
+    /* outline:1px solid red; */
+    display:inline-block;
+    width:40%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .nav-list li {
@@ -482,12 +499,13 @@ ul.nav-list {
     padding:10px 15px;
   }
 
-  ul.nav-list li:first-child {
+  .active {
     color:red;
   }
 
-  ul.nav-list li:last-child {
-    outline:2px solid red;
+
+  .nav-list li:last-child {
+    border:2px solid red;
   }
 
   .spacing {

@@ -6,11 +6,8 @@ const home = document.querySelector('.nav-home');
 const about = document.querySelector('.nav-about-us');
 const aboutPage = document.querySelector('.about-us');
 const homePage = document.querySelector('.home');
-
-
-console.log(aboutPage);
-console.log(homePage);
-
+const activeLink = document.querySelector('.active');
+const logo = document.querySelector('.brand')
 
 const speakers = [
     {
@@ -157,8 +154,14 @@ about.addEventListener('click', () => {
     modalWindow.classList.add('hidden');
     aboutPage.classList.remove('hidden');
     homePage.classList.add('hidden');
-})
+});
 
-// Array.from(modalNavs).forEach(modalNav => modalNav.addEventListener('click', () => {
-//     modalWindow.classList.add('hidden');
-// }));
+activeLink.addEventListener('click', () => {
+    aboutPage.classList.remove('hidden');
+    homePage.classList.add('hidden');
+});
+
+logo.addEventListener('click', () => {
+    aboutPage.classList.add('hidden');
+    homePage.classList.remove('hidden');
+});
