@@ -75,8 +75,7 @@ a.brand {
   margin-bottom:20px;
 }
 
-.event-date, 
-.event-duration {
+.event-date {
   font-size:1.1em ;
   font-weight:bold;
 }
@@ -128,6 +127,7 @@ a.brand {
 .description {
   flex-basis: 55%; 
   padding-right:10px; 
+  color:#fff;
 }
 
 .description, 
@@ -353,9 +353,15 @@ a {
   align-items: center;
 }
 
+
+
 /* large screen styles */
 
 @media (min-width: 768px) {
+  .small-screen {
+    display:none;
+  }
+
   div.hamburger {
     display:none;
   }
@@ -403,6 +409,66 @@ a {
     outline:2px solid red;
   }
 
+  .spacing {
+    margin:  0 400px 0 120px;
+  }
+
+  .tagline{
+    font-size: 4em;
+    color:red;
+    font-weight: bolder;
+    margin-bottom:20px;
+  }
+
+  h2.page-title {
+    font-size: 4em;
+    margin-bottom:20px;
+  }
+
+  .introduction {
+    border:1px solid rgba(211, 211, 211, .4);
+    display:inline-block;
+    padding: 10px 15px 10px 10px;
+    margin-bottom:30px;
+  }
+
+  .event-date {
+    font-size:2em ;
+    font-weight:900;
+    margin-bottom:10px;
+  }
+
+  .venue {
+    font-size: 1.5em;
+    margin-bottom:80px;
+  }
+
+  /* main program section */
+
+  div.activities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap:2px;
+    justify-content: center;
+  }
+
+  div.program-panel {
+    /* outline:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    width:150px;
+    height:170px;
+    box-sizing: border-box;
+    text-align: center;
+    padding:10px 0;
+  }
+
+  div.programe-icon {
+    display: flex;
+    flex-direction: column;
+   
+  }
 
 
   
