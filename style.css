@@ -47,6 +47,12 @@ header{
   background-color: #fff;
   box-shadow:  0.1em 0.1em 1em rgba(0,0,0,0.3);
   width:100%;
+  z-index:2;
+}
+
+.hamburger {
+  margin-left:25px;
+  cursor: pointer;
 }
 
 .hamburger > span {
@@ -63,6 +69,7 @@ header{
   margin-bottom:5px;
   font-size: 1.8em;
   color: red;
+  padding-top:100px;
 }
 
 .page-title {
