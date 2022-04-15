@@ -56,9 +56,9 @@ header{
 }
 
 /* Dont display the logo on small screens */
-a.brand {
+/* a.brand {
  display:none;
-}
+} */
 
 .tagline {
   margin-bottom:5px;
@@ -373,24 +373,51 @@ a {
   align-items: center;
 }
 
+.brand-logo {
+  margin-left:50px;
+  margin-right:10px;
+}
+
+.copyright {
+  margin-right:30px;
+}
+
+/* make logo */
+.brand img{
+  height:40px;
+}
+
+a.brand {
+  border:1px solid black;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding:2px 5px;
+  margin-top:35px;
+  opacity:1;
+}
+
+/* hide on small screens */
+
+.large-screen {
+  display:none;
+}
+
 
 
 /* large screen styles */
 
 @media (min-width: 768px) {
-  .small-screen, 
-  div.small-screen,
-  section.small-screen {
-    display:none;
-  }
 
-  div.hamburger {
-    display:none;
-  }
+
 
   /* logo start */
 
-  .brand img{
+  /* .brand img{
     height:40px;
   }
 
@@ -406,7 +433,7 @@ a {
     padding:2px 5px;
     margin-top:35px;
     opacity:1;
-  }
+  } */
 
   /* logo end */
 
