@@ -492,6 +492,20 @@ a {
     outline:1px solid green;
   }
 
+  /* about us large */
+  .pad {
+    padding: 0 180px;
+    outline:1px solid black;
+  }
+
+  .highlight {
+    margin:60px 0;
+  }
+
+  .contact-info {
+    margin-bottom:70px;
+  }
+
   
 
 
