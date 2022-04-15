@@ -506,10 +506,17 @@ a {
     margin-bottom:70px;
   }
 
-  .past-festivals {
-    outline: 1px solid black;
+  .past-event{
+    padding:0;
+    margin:0;
+  }
+
+  .key-moments {
     display:flex;
-    
+    flex-direction: row;
+    align-items: center;
+    column-gap:20px;
+
   }
 
   
