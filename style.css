@@ -64,10 +64,19 @@ header{
   margin-bottom:5px;
 }
 
+/* .bg-holder {
+  background-image: url('images/nyege2.jpg');
+} */
+
 .page-title {
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-bottom:20px;
- color:red;
+ -webkit-text-fill-color:rgba(255, 0, 0, .4);
+ -moz-text-fill-color: rgba(255, 0, 0, .4);
+
+ -webkit-background-clip: text;
+ background-clip: text;
+ background-image: url('images/nyege2.jpg');
 }
 
 .introduction {
@@ -232,10 +241,11 @@ a {
 .page-title-2 {
   text-align: center;
   margin-bottom:30px;
+  font-size:2.5em;
 }
 
 .highlight {
-  border: 1px solid rgba(211, 211, 211, .5);
+  border: 1px solid rgba(211, 211, 211, .1);
   padding: 15px 10px;
   text-align: center;
 }
