@@ -454,7 +454,6 @@ a {
   }
 
   div.program-panel {
-    /* outline:1px solid red; */
     display:flex;
     flex-direction: column;
     width:150px;
