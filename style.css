@@ -55,20 +55,11 @@ header{
   margin-top:0;
 }
 
-/* Dont display the logo on small screens */
-/* a.brand {
- display:none;
-} */
-
 .tagline {
   margin-bottom:5px;
   font-size: 1.8em;
   color: red;
 }
-
-/* .bg-holder {
-  background-image: url('images/nyege2.jpg');
-} */
 
 .page-title {
   font-size: 2.5em;
@@ -78,7 +69,6 @@ header{
 .page-title-1 {
   -webkit-text-fill-color:rgba(255, 0, 0, .4);
  -moz-text-fill-color: rgba(255, 0, 0, .4);
-
  -webkit-background-clip: text;
  background-clip: text;
  background-image: url('images/nyege2.jpg');
@@ -149,7 +139,6 @@ header{
 .speaker-bio,
 .speaker-holder {
   align-items: center;
-  /* height:70px;   */
 }
 
 .icon-title{
@@ -178,7 +167,6 @@ a {
 }
 
 .page-section{
-  /* outline:1px solid red; */
   width:100%;
 }
 
@@ -347,7 +335,6 @@ a {
 }
 
 .partners {
-  /* outline:1px solid red; */
   width:100%;
   display: grid;
   grid-template-rows:repeat(2, 50px) ;
@@ -417,13 +404,22 @@ a.brand {
   opacity:1;
 }
 
+/* modal window styles */
+ .modal {
+   position:fixed;
+   top:0;
+   bottom:0;
+   right:0;
+   left:0;
+   background-color: rgba(255, 0, 0, .7);
+   padding: 40px 40px;
+ }
+
 /* hide on small screens */
 
 .large-screen {
   display:none;
 }
-
-
 
 /* large screen styles */
 
