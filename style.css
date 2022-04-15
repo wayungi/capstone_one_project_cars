@@ -71,7 +71,10 @@ header{
 .page-title {
   font-size: 2.5em;
   margin-bottom:20px;
- -webkit-text-fill-color:rgba(255, 0, 0, .4);
+}
+
+.page-title-1 {
+  -webkit-text-fill-color:rgba(255, 0, 0, .4);
  -moz-text-fill-color: rgba(255, 0, 0, .4);
 
  -webkit-background-clip: text;
@@ -242,6 +245,7 @@ a {
   text-align: center;
   margin-bottom:30px;
   font-size:2.5em;
+  color:red;
 }
 
 .highlight {
@@ -547,9 +551,9 @@ a.brand {
 
 
   /* distinction */
-  .home, .about-us {
+  /* .home, .about-us {
     outline:1px solid green;
-  }
+  } */
 
   /* about us large */
   .pad {
@@ -577,7 +581,7 @@ a.brand {
   }
 
   div.copyright-section {
-    outline:1px solid green;
+    /* outline:1px solid green; */
     display:flex;
     flex-direction: row;
     justify-content: center;
