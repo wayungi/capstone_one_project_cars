@@ -424,6 +424,7 @@ a.brand {
   left:0;
   background-color: rgba(255, 0, 0, 1);
   padding: 40px 40px;
+  z-index:3;
 }
 
 button {
@@ -449,9 +450,11 @@ li.modal-item {
   color: grey;
 }
 
-/* .modal.hidden {
+.modal.hidden, .about-us.hidden {
   display:none;
-} */
+}
+
+
 /* hide on small screens */
 
 .large-screen {

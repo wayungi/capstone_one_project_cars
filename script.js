@@ -1,13 +1,15 @@
 const speakersList = document.querySelector('.speakers-list');
-// const closeBtn = document.querySelector('.modal-close');
-// const modalWindow = document.querySelector('.modal');
-// const hamburger = document.querySelector('.hamburger');
-// const modalNavs = document.querySelectorAll('.modal-menu > li');
-// const aboutPage = document.querySelector('.about-us');
+const closeBtn = document.querySelector('.modal-close');
+const modalWindow = document.querySelector('.modal');
+const hamburger = document.querySelector('.hamburger');
+const home = document.querySelector('.nav-home');
+const about = document.querySelector('.nav-about-us');
+const aboutPage = document.querySelector('.about-us');
+const homePage = document.querySelector('.home');
 
-//const homePage = document.querySelector('');
 
-//console.log(modalNavs);
+console.log(aboutPage);
+console.log(homePage);
 
 
 const speakers = [
@@ -137,13 +139,25 @@ for(let i = 0; i < speakers.length; i++) {
     createSpeaker(i, speakers);
 }
 
-// closeBtn.addEventListener('click', () => {
-//     modalWindow.classList.add('hidden');
-// });
+closeBtn.addEventListener('click', () => {
+    modalWindow.classList.add('hidden');
+});
 
-// hamburger.addEventListener('click', () => {
-//     modalWindow.classList.remove('hidden');
-// });
+hamburger.addEventListener('click', () => {
+    modalWindow.classList.remove('hidden');
+});
+
+home.addEventListener('click', () => {
+    modalWindow.classList.add('hidden');
+    aboutPage.classList.add('hidden');
+    homePage.classList.remove('hidden');
+});
+
+about.addEventListener('click', () => {
+    modalWindow.classList.add('hidden');
+    aboutPage.classList.add('hidden');
+    homePage.classList.remove('hidden');
+})
 
 // Array.from(modalNavs).forEach(modalNav => modalNav.addEventListener('click', () => {
 //     modalWindow.classList.add('hidden');
