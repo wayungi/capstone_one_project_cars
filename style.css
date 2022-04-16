@@ -30,7 +30,8 @@ h4 {
 header {
   background-image: url('images/main_big.png');
   background-repeat: no-repeat;
-  background-position: top 0 right 0;
+  background-size: contain;
+  
 }
 
 .main-program,
