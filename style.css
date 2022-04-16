@@ -41,20 +41,31 @@ header {
 }
 
 ul.social-list {
-  display:flex;
+  display: flex;
   flex-direction: row;
   height: 25px;
   justify-content: end;
-  width:100%;
-  padding-right:300px;
-  padding-top:5px;
-  background-color:#272a31 ;
+  width: 100%;
+  padding-right: 300px;
+  padding-top: 5px;
+  background-color: #272a31;
 }
-
 
 li.social-item {
   list-style: none;
-  padding:5px 10px;
+  padding: 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  margin: 35px 0;
+}
+
+.modal-item a {
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  line-height: 50px;
 }
 
 li.social-item a {
@@ -64,14 +75,14 @@ li.social-item a {
 
 .navbar {
   align-items: center;
-  height:50px;
-  padding-bottom:20px;
+  height: 50px;
+  padding-bottom: 20px;
   position: fixed;
   background-color: #fff;
   box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.3);
   width: 100%;
-  margin-top:9px;
-  z-index:2;
+  margin-top: 9px;
+  z-index: 2;
 }
 
 .hamburger {
@@ -80,15 +91,15 @@ li.social-item a {
 }
 
 .local-nav {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding:5px;
+  padding: 5px;
   background-color: #fff;
   width: 100%;
-  height:30px ;
-  padding-top:15px;
+  height: 30px;
+  padding-top: 15px;
 }
 
 .hamburger > span {
@@ -200,10 +211,6 @@ li.social-item a {
   background-color: red;
 }
 
-a {
-  text-decoration: none;
-  margin: 35px 0;
-}
 
 /* featured speakers section */
 
@@ -503,13 +510,6 @@ li.modal-item {
   list-style: none;
 }
 
-.modal-item a {
-  font-size: 2em;
-  color: #fff;
-  font-weight: bold;
-  line-height: 50px;
-}
-
 .modal-item a:hover,
 button:hover {
   color: grey;
@@ -538,12 +538,12 @@ ul.nav-list {
     display: none;
   }
 
-  div.dark-copyright{
-    display:none;
+  div.dark-copyright {
+    display: none;
   }
 
   .large-screen {
-    display:block;
+    display: block;
   }
 
   a.brand,
@@ -582,13 +582,7 @@ ul.nav-list {
     margin: 0 400px 0 120px;
   }
 
-  .tagline {
-    font-size: 4em;
-    color: red;
-    font-weight: bolder;
-    margin-bottom: 20px;
-  }
-
+  
   h2.page-title {
     font-size: 4em;
     margin-bottom: 20px;
@@ -700,16 +694,22 @@ ul.nav-list {
     color: #fff;
   }
 
-  .tagline {
-    padding-top: 150px;
+  .page-title-2 {
+    margin-top: 100px;
   }
 
-  .page-title-2 {
-    margin-top:100px;
+  .tagline {
+    font-size: 4em;
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding-top: 150px;
+
   }
+
 
   span.black-font {
-    color:#120909;
+    color: #120909;
   }
 
   .past-festivals {
