@@ -515,6 +515,7 @@ button:hover {
   color: grey;
 }
 
+.large-screen,
 .modal.hidden,
 .about-us.hidden,
 .home.hidden,
@@ -523,12 +524,9 @@ ul.nav-list {
   display: none;
 }
 
-/* hide on small screens */
 
-.large-screen {
-  display: none;
-}
 
+ 
 /* large screen styles */
 
 @media (min-width: 768px) {
