@@ -672,6 +672,12 @@ ul.nav-list {
     transform:scale(1.03);
   }
 
+  .bg-span{
+    background-image: url(images/main_big.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   div.programe-icon {
     display: flex;
     flex-direction: column;
