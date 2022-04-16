@@ -118,7 +118,7 @@ function createSpeaker(index, ArrayOfSpeakers) {
 
   // Add the speaker image to the image tag/image tag is front face also
   const imageTag = document.createElement('img');
-  const [src, alt, className] = ArrayOfSpeakers[index];
+  const [src, alt, className] = ArrayOfSpeakers[index].imageDetails;
   imageTag.src = src;
   imageTag.alt = alt;
   imageTag.classList.add(className);
@@ -156,7 +156,7 @@ function createSpeaker(index, ArrayOfSpeakers) {
   speakersList.appendChild(speakerDiv);
 }
 
-for (let i = 0; i < speakers.length; i + 1) {
+for (let i = 0; i < speakers.length; i += 1) {
   createSpeaker(i, speakers);
 }
 
