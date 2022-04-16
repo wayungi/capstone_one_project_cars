@@ -71,6 +71,7 @@ li.social-item a {
   box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.3);
   width: 100%;
   margin-top:9px;
+  z-index:2;
 }
 
 .hamburger {
@@ -531,8 +532,18 @@ ul.nav-list {
 /* large screen styles */
 
 @media (min-width: 768px) {
-  div.hamburger {
+  div.hamburger,
+  .small-screen,
+  section.small-screen {
     display: none;
+  }
+
+  div.dark-copyright{
+    display:none;
+  }
+
+  .large-screen {
+    display:block;
   }
 
   a.brand,
@@ -687,6 +698,22 @@ ul.nav-list {
   .copyright p,
   span.large-screen {
     color: #fff;
+  }
+
+  .tagline {
+    padding-top: 150px;
+  }
+
+  .page-title-2 {
+    margin-top:100px;
+  }
+
+  span.black-font {
+    color:#120909;
+  }
+
+  .past-festivals {
+    padding-bottom: 100px;
   }
 }
 
