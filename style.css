@@ -665,6 +665,11 @@ ul.nav-list {
     box-sizing: border-box;
     text-align: center;
     padding: 10px 0;
+    transition: all .3s ease;
+  }
+
+  div.program-panel:hover {
+    transform:scale(1.03);
   }
 
   div.programe-icon {
